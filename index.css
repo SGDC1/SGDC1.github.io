@@ -6,7 +6,7 @@ html {
 h1 {
   position: relative;
   text-align: center;
-  margin: 25px 0px;
+  margin: 50px 0px;
   animation-name: skew;
   animation-duration: 4s;
   animation-iteration-count: infinite;
