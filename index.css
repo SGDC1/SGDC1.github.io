@@ -4,5 +4,18 @@ html {
 }
 
 h1 {
+  position: relative;
   text-align: center;
+  animation-name: skew;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes skew {
+  0% {transform:skew(0deg,0deg);}
+  20% {transform:skew(20deg,10deg);}
+  40% {transform:skew(20deg,0deg);}
+  60% {transform:skew(-20deg,0deg);}
+  80% {transform:skew(-20deg,-10deg);}
+  100% {transform:skew(0deg,0deg);}
 }
