@@ -1,7 +1,4 @@
 html {
-  /*background-color: black;*/
-}
-
-.text {
-  text-color: white;
+  background-color: black;
+  color: white;
 }
