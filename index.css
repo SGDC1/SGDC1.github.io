@@ -26,7 +26,8 @@ li a:hover {
 }
 
 div.break {
-  line-height: 150px;
+  line-height: 250px;
+  font-size: 100px;
 }
 
 h1 {
