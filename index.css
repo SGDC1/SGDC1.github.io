@@ -1,6 +1,5 @@
 html {
   background-color: black;
-  color: white;
 }
 
 ul {
@@ -35,6 +34,7 @@ h1 {
   position: relative;
   text-align: center;
   margin: 50px 0px;
+  color: white;
   animation-name: skew;
   animation-duration: 4s;
   animation-iteration-count: infinite;
