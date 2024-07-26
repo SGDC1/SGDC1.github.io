@@ -2,7 +2,7 @@ const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 
 function setup() {
-  draw("img", 0, 0, "player.png"); //player
+  draw("img", 0, 0, "icon_1.png"); //player
   draw("img", 0, 250, "ground.png"); //ground
 }
 
