@@ -8,12 +8,11 @@ function setup() {
 
 function draw(type, x, y, src) {
   switch (type) {
-    case: "img" {
+    case "img":
       let img = new Image();
       img.src = src;
       img.onload = () => ctx.drawImage(img, x, y);
       break;
-    }
     default:
       console.log("Switch default;");
   }
