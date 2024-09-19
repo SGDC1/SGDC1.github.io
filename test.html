@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test</title>
+  </head>
+  <body>
+    <script>
+     const fs = require('fs')
+
+     let data = "Learning how to write in a file."
+
+
+     fs.writeFile('Output.txt', data, (err) => {
+       if (err) throw err;
+     })
+
+    </script>
+  </body>
+</html>
