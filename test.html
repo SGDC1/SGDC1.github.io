@@ -5,14 +5,14 @@
   </head>
   <body>
     <script>
-     const fs = require('fs')
+     const fs = require('fs');
 
-     let data = prompt("Enter Text...");
+     let data = "Something";
 
 
      fs.writeFile('Output.txt', data, (err) => {
        if (err) throw err;
-     })
+     });
 
     </script>
   </body>
