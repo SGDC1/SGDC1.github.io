@@ -1,3 +1,17 @@
+html {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(107,107,107,1) 35%, rgba(158,158,158,1) 62%, rgba(255,255,255,1) 100%);;
+}
+      
+div.item {
+        width: 50%;
+        margin: auto;
+        padding: 100px;
+        border: 1px solid grey;
+        align: center;
+        color: white;
+}
+
 div.item#1 {
   background: rgb(97,92,0);
   background: linear-gradient(45deg, rgba(97,92,0,1) 0%, rgba(255,234,0,1) 25%, rgba(254,255,168,1) 50%, rgba(238,245,0,1) 75%, rgba(89,78,0,1) 100%);
