@@ -67,7 +67,7 @@ h1 {
   20% {transform:skew(20deg,10deg);
       color:red;}
   40% {transform:skew(20deg,0deg);
-      color:green;}
+      color:#49fb35;}
   60% {transform:skew(-20deg,0deg);
       color:blue;}
   80% {transform:skew(-20deg,-10deg);
