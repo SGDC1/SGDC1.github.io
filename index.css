@@ -46,6 +46,7 @@ h1 {
   animation-name: skew;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes skew {
