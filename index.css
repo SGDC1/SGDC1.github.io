@@ -3,6 +3,11 @@
   src: url(VitreousMedium-B98l.ttf.otf);
 }
 
+@font-face {
+  font-family: thingShape;
+  src: url(TheShapeOfThings-z2E0.ttf.otf);
+}
+
 html {
   background-color: black;
 }
@@ -44,7 +49,7 @@ p {
 }
 
 h1 {
-  font-family: vitreousMedium;
+  font-family: thingShape;
   font-size: 64px;
   position: relative;
   text-align: center;
