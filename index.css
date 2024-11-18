@@ -49,10 +49,16 @@ h1 {
 }
 
 @keyframes skew {
-  0% {transform:skew(0deg,0deg);}
-  20% {transform:skew(20deg,10deg);}
-  40% {transform:skew(20deg,0deg);}
-  60% {transform:skew(-20deg,0deg);}
-  80% {transform:skew(-20deg,-10deg);}
-  100% {transform:skew(0deg,0deg);}
+  0% {transform:skew(0deg,0deg);
+     color:white;}
+  20% {transform:skew(20deg,10deg);
+      color:red;}
+  40% {transform:skew(20deg,0deg);
+      color:green;}
+  60% {transform:skew(-20deg,0deg);
+      color:blue;}
+  80% {transform:skew(-20deg,-10deg);
+      color:gray;}
+  100% {transform:skew(0deg,0deg);
+       color:dark-grey;}
 }
