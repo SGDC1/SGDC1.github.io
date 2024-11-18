@@ -16,6 +16,11 @@ html {
   color: white;
 }
 
+.videos {
+  width: 50%;
+  margin: auto;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
