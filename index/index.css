@@ -9,7 +9,8 @@
 }
 
 html {
-  background-color: black;
+  background: linear-gradient(180deg, rgba(3,0,50,1) 0%, rgba(245,245,255,1) 100%);
+  background-length: 1000px;
 }
 
 #version {
