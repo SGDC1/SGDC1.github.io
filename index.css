@@ -67,7 +67,7 @@ h1 {
 }
 
 @keyframes skew {
-  0% {transform:skew(0deg,0deg);
+  0% {transform:skew(0deg,0deg), perspective(0);
      color:white;}
   20% {transform:skew(20deg,10deg);
       color:red;}
@@ -77,6 +77,6 @@ h1 {
       color:blue;}
   80% {transform:skew(-20deg,-10deg);
       color:gray;}
-  100% {transform:skew(0deg,0deg);
+  100% {transform:skew(0deg,0deg), perspective(10);
        color:dark-grey;}
 }
